@@ -37,7 +37,7 @@ LGFX::LGFX(void)
     cfg.panel_height = TFT_HEIGHT;
     cfg.offset_x = 0;
     cfg.offset_y = 0;
-    //cfg.offset_rotation = 5;
+    cfg.offset_rotation = 2;
     cfg.dummy_read_pixel = 8;
     cfg.dummy_read_bits = 1;
     cfg.readable = true;
@@ -70,7 +70,7 @@ LGFX::LGFX(void)
     cfg.y_max = 479;
     cfg.pin_int = 7;
     cfg.bus_shared = true;
-    cfg.offset_rotation = 0;
+    cfg.offset_rotation = 2;
 
     cfg.i2c_port = 1;
     cfg.i2c_addr = 0x38;
